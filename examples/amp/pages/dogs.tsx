@@ -12,9 +12,9 @@ export default function DogPage() {
   return (
     <div>
       <Head>
-        <title>The Dog</title>
+        <title>The News 23</title>
       </Head>
-      <h1>The Dog (Hybrid AMP Page)</h1>
+      <h1>Developers</h1>
       <Byline author="Meow Meow Fuzzyface" />
       <p>
         <a href={isAmp ? '/dog' : '/dog?amp=1'}>
